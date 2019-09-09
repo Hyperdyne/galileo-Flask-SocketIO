@@ -12,7 +12,7 @@ with open('flask_socketio/__init__.py', 'r') as f:
                         f.read(), re.MULTILINE).group(1)
 
 setup(
-    name='Flask-SocketIO',
+    name='galileo-Flask-SocketIO',
     version=version,
     url='http://github.com/miguelgrinberg/Flask-SocketIO/',
     license='MIT',
@@ -26,7 +26,7 @@ setup(
     platforms='any',
     install_requires=[
         'Flask>=0.9',
-        'python-socketio>=4.3.0'
+        'galileo-socketio>=4.0.1'
     ],
     tests_require=[
         'coverage'
